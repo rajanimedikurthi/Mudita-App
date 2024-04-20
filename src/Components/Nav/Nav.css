@@ -1,0 +1,28 @@
+.logo {
+    display: block;
+   
+  }
+  .logo img{
+    display: block;
+    height: 50px;
+  }
+  .nav-container {
+    display: flex; /* Use flexbox to align child elements */
+    justify-content: space-between; /* Align child elements with space between them */
+    align-items: center; /* Align child elements vertically */
+    padding: 10px 20px; /* Add padding as needed */
+    background-color: #333; /* Background color of the navigation container */
+    color: #fff; /* Text color */
+  
+    height: 50px; /* Maintain aspect ratio */
+  }
+  
+  .nav-container a {
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .nav-container a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
